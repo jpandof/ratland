@@ -31,7 +31,7 @@
 	function runEffect(id) {
       // Run the effect
       //$(".sacar").attr('disabled','disabled');
-      $( "#" + id ).show( 'explode', {}, 300, callback(id) );
+      $( "#" + id ).show( 'explode', {}, 1000, callback(id) );
     };
  
     //callback function to bring a hidden box back
