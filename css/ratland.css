@@ -1,0 +1,92 @@
+html,*{
+	padding: 0;
+	margin: 0;
+}
+div#bolsa {
+	background-color: #3d3d3d;
+	padding: 20px;
+	width: 100%;
+	float: left;
+}
+
+.ubicacion{
+	float: left;
+	padding: 10px;
+	margin: 0 5px;
+}
+#vertedero{
+	background-color: green;
+}
+#ciudad{
+	background-color: blue;
+}
+#campo{
+	background-color: orange;
+}
+
+div#bolsa > div {
+	
+}
+
+div#bolsa > div img {
+	height: 60px;
+	width: 60px;
+	margin: 10px;
+	float: left;
+}
+div#bolsa > div h1 {
+	float: left;
+	margin: 0 10px;
+	font-size: 80px;
+	color: deeppink;
+}
+div#bolsa > div input[type=number] {
+	display: none;
+}
+
+#amarillo{
+	background-color: yellow;
+}
+#naranja{
+	background-color: orange;
+}
+#blanco{
+	background-color: white;
+}
+#negro{
+	background-color: black;
+}
+#morado{
+	background-color: purple;
+}
+#azul{
+	background-color: blue;
+}
+.clear{
+	clear: both;
+}
+.cheese{
+	width: 300px;
+	display: none;
+	z-index: 999;
+	position: absolute;
+	top: 300px;
+	left: 300px;
+}
+img.cheese_historico{
+	width: 10px!important;
+	height: 10px!important;
+	float: left;
+	margin: 1px!important;
+	padding: 3px!important;
+}
+
+#cartas{
+	padding: 5px;
+	margin: 10px;
+}
+
+img[disabled]
+{
+    opacity:0.5;
+}
